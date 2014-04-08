@@ -39,7 +39,7 @@
     @param model the model for the recognition.
     @return The created {@link YSKSpeechRecognitionViewController} object to perform the recognition with specified parameters.
  */
-- (instancetype)initWithLangauge:(NSString *)language model:(NSString *)model;
+- (instancetype)initWithLanguage:(NSString *)language model:(NSString *)model;
 
 /*!
     @brief Release the resources used by the {@link YSKSpeechRecognitionViewController} object.

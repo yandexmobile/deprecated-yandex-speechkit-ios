@@ -10,10 +10,11 @@
 
 #import "YSKSpeechKit.h"
 #import "YSKError.h"
-#import "YSKRecognizer.h"
-#import "YSKRecognizerDelegate.h"
 #import "YSKInitializer.h"
 #import "YSKInitializerDelegate.h"
+#import "YSKLocationProvider.h"
+#import "YSKRecognizer.h"
+#import "YSKRecognizerDelegate.h"
 #import "YSKSpeechRecognitionViewController.h"
 #import "YSKSpeechRecognitionViewControllerDelegate.h"
 

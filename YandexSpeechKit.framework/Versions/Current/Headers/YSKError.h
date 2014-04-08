@@ -14,17 +14,18 @@
     @details The error is returned via {@link YSKRecognizerDelegate::onError} and {@link YSKInitializerDelegate::onError} callback functions.
  */
 enum _YSKSpeechErrorCode {
-    kYSKErrorOk = 0,	       /*! @const kYSKErrorOk  No error */
-    kYSKErrorAPIKey,           /*! @const kYSKErrorAPIKey  API Key error */
-    kYSKErrorRecording,        /*! @const kYSKErrorRecording  Audio recording error */
-    kYSKErrorEncoding,         /*! @const kYSKErrorEncoding  Encoding error */
-    kYSKErrorNetwork,          /*! @const kYSKErrorNetwork  Networking communication error */
-    kYSKErrorServer,           /*! @const kYSKErrorServer  Server side error */
-    kYSKErrorCancelled,        /*! @const kYSKErrorCancelled  Operation has been cancelled */
-    kYSKErrorNoSpeech,         /*! @const kYSKErrorNoSpeech  No voice detected */
-    kYSKErrorNotAvailable,     /*! @const kYSKErrorNotAvailable  Service is not available */
-    kYSKErrorBusy,             /*! @const kYSKErrorBusy  Another operation in progress */
-    kYSKErrorUnknown,          /*! @const kYSKErrorUnknown  Unknown error */
+    kYSKErrorOk = 0,                /*! @const kYSKErrorOk  No error */
+    kYSKErrorAPIKey,                /*! @const kYSKErrorAPIKey  API Key error */
+    kYSKErrorRecording,             /*! @const kYSKErrorRecording  Audio recording error */
+    kYSKErrorRecordingPermissions,  /*! @const kYSKErrorRecordingPermissions  The app does not have permission to use michrophone */
+    kYSKErrorEncoding,              /*! @const kYSKErrorEncoding  Encoding error */
+    kYSKErrorNetwork,               /*! @const kYSKErrorNetwork  Networking communication error */
+    kYSKErrorServer,                /*! @const kYSKErrorServer  Server side error */
+    kYSKErrorCancelled,             /*! @const kYSKErrorCancelled  Operation has been cancelled */
+    kYSKErrorNoSpeech,              /*! @const kYSKErrorNoSpeech  No voice detected */
+    kYSKErrorNotAvailable,          /*! @const kYSKErrorNotAvailable  Service is not available */
+    kYSKErrorBusy,                  /*! @const kYSKErrorBusy  Another operation in progress */
+    kYSKErrorUnknown,               /*! @const kYSKErrorUnknown  Unknown error */
 };
 
 /*!

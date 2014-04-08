@@ -1,0 +1,355 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D0D509417C272DF00C1BD04 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D0D509317C272DF00C1BD04 /* libc++.dylib */; };
+		8D0D509617C272E600C1BD04 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D0D509517C272E600C1BD04 /* libz.dylib */; };
+		8D0F313017997ED50042D5B5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D0F312F17997ED50042D5B5 /* UIKit.framework */; };
+		8D0F313217997ED50042D5B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D0F313117997ED50042D5B5 /* Foundation.framework */; };
+		8D0F313417997ED50042D5B5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D0F313317997ED50042D5B5 /* CoreGraphics.framework */; };
+		8D0F313C17997ED50042D5B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0F313B17997ED50042D5B5 /* main.m */; };
+		8D0F314017997ED50042D5B5 /* YSKSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0F313F17997ED50042D5B5 /* YSKSAppDelegate.m */; };
+		8D0F314217997ED50042D5B5 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D0F314117997ED50042D5B5 /* Default.png */; };
+		8D0F314417997ED50042D5B5 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D0F314317997ED50042D5B5 /* Default@2x.png */; };
+		8D0F314617997ED50042D5B5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D0F314517997ED50042D5B5 /* Default-568h@2x.png */; };
+		8D0F3150179983CB0042D5B5 /* YSKSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0F314E179983CB0042D5B5 /* YSKSViewController.m */; };
+		8D0F3156179984390042D5B5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8D0F3152179984390042D5B5 /* InfoPlist.strings */; };
+		8D0F3157179984390042D5B5 /* YSKSViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D0F3154179984390042D5B5 /* YSKSViewController.xib */; };
+		8D6ED671179F8F4E00FCAFCA /* YandexSpeechKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D6ED670179F8F4E00FCAFCA /* YandexSpeechKit.framework */; };
+		8DB567B317C2694B009F4A98 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DB567B117C2692D009F4A98 /* CoreAudio.framework */; };
+		8DB567B417C26954009F4A98 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DB567AF17C26917009F4A98 /* AudioToolbox.framework */; };
+		8DD2D49717F07BA100B4F4D9 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DD2D49617F07BA100B4F4D9 /* CoreLocation.framework */; };
+		8DD2D49917F07BA700B4F4D9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DD2D49817F07BA700B4F4D9 /* SystemConfiguration.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8D0D509317C272DF00C1BD04 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		8D0D509517C272E600C1BD04 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		8D0F312C17997ED50042D5B5 /* SpeechKitSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeechKitSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D0F312F17997ED50042D5B5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8D0F313117997ED50042D5B5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8D0F313317997ED50042D5B5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8D0F313717997ED50042D5B5 /* SpeechKitSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpeechKitSample-Info.plist"; sourceTree = "<group>"; };
+		8D0F313B17997ED50042D5B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D0F313D17997ED50042D5B5 /* SpeechKitSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SpeechKitSample-Prefix.pch"; sourceTree = "<group>"; };
+		8D0F313E17997ED50042D5B5 /* YSKSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YSKSAppDelegate.h; sourceTree = "<group>"; };
+		8D0F313F17997ED50042D5B5 /* YSKSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YSKSAppDelegate.m; sourceTree = "<group>"; };
+		8D0F314117997ED50042D5B5 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		8D0F314317997ED50042D5B5 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		8D0F314517997ED50042D5B5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		8D0F314E179983CB0042D5B5 /* YSKSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSKSViewController.m; sourceTree = "<group>"; };
+		8D0F314F179983CB0042D5B5 /* YSKSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSKSViewController.h; sourceTree = "<group>"; };
+		8D0F3153179984390042D5B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
+		8D0F3155179984390042D5B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = YSKSViewController.xib; sourceTree = "<group>"; };
+		8D6ED670179F8F4E00FCAFCA /* YandexSpeechKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YandexSpeechKit.framework; path = ../../YandexSpeechKit.framework; sourceTree = "<group>"; };
+		8DB567AF17C26917009F4A98 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		8DB567B117C2692D009F4A98 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		8DD2D49617F07BA100B4F4D9 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		8DD2D49817F07BA700B4F4D9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D0F312917997ED50042D5B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DD2D49917F07BA700B4F4D9 /* SystemConfiguration.framework in Frameworks */,
+				8DD2D49717F07BA100B4F4D9 /* CoreLocation.framework in Frameworks */,
+				8D0D509617C272E600C1BD04 /* libz.dylib in Frameworks */,
+				8D0D509417C272DF00C1BD04 /* libc++.dylib in Frameworks */,
+				8DB567B417C26954009F4A98 /* AudioToolbox.framework in Frameworks */,
+				8DB567B317C2694B009F4A98 /* CoreAudio.framework in Frameworks */,
+				8D0F313017997ED50042D5B5 /* UIKit.framework in Frameworks */,
+				8D0F313217997ED50042D5B5 /* Foundation.framework in Frameworks */,
+				8D0F313417997ED50042D5B5 /* CoreGraphics.framework in Frameworks */,
+				8D6ED671179F8F4E00FCAFCA /* YandexSpeechKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D0F312317997ED50042D5B5 = {
+			isa = PBXGroup;
+			children = (
+				8D0D509517C272E600C1BD04 /* libz.dylib */,
+				8D0D509317C272DF00C1BD04 /* libc++.dylib */,
+				8D0F313517997ED50042D5B5 /* SpeechKitSample */,
+				8D0F312E17997ED50042D5B5 /* Frameworks */,
+				8D0F312D17997ED50042D5B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8D0F312D17997ED50042D5B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D0F312C17997ED50042D5B5 /* SpeechKitSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D0F312E17997ED50042D5B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8DD2D49817F07BA700B4F4D9 /* SystemConfiguration.framework */,
+				8DD2D49617F07BA100B4F4D9 /* CoreLocation.framework */,
+				8DB567B117C2692D009F4A98 /* CoreAudio.framework */,
+				8DB567AF17C26917009F4A98 /* AudioToolbox.framework */,
+				8D6ED670179F8F4E00FCAFCA /* YandexSpeechKit.framework */,
+				8D0F312F17997ED50042D5B5 /* UIKit.framework */,
+				8D0F313117997ED50042D5B5 /* Foundation.framework */,
+				8D0F313317997ED50042D5B5 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8D0F313517997ED50042D5B5 /* SpeechKitSample */ = {
+			isa = PBXGroup;
+			children = (
+				8D0F314E179983CB0042D5B5 /* YSKSViewController.m */,
+				8D0F314F179983CB0042D5B5 /* YSKSViewController.h */,
+				8D0F313E17997ED50042D5B5 /* YSKSAppDelegate.h */,
+				8D0F313F17997ED50042D5B5 /* YSKSAppDelegate.m */,
+				8D0F313617997ED50042D5B5 /* Supporting Files */,
+			);
+			path = SpeechKitSample;
+			sourceTree = "<group>";
+		};
+		8D0F313617997ED50042D5B5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D0F3151179984390042D5B5 /* en.lproj */,
+				8D0F313717997ED50042D5B5 /* SpeechKitSample-Info.plist */,
+				8D0F313B17997ED50042D5B5 /* main.m */,
+				8D0F313D17997ED50042D5B5 /* SpeechKitSample-Prefix.pch */,
+				8D0F314117997ED50042D5B5 /* Default.png */,
+				8D0F314317997ED50042D5B5 /* Default@2x.png */,
+				8D0F314517997ED50042D5B5 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8D0F3151179984390042D5B5 /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				8D0F3152179984390042D5B5 /* InfoPlist.strings */,
+				8D0F3154179984390042D5B5 /* YSKSViewController.xib */,
+			);
+			path = en.lproj;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D0F312B17997ED50042D5B5 /* SpeechKitSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D0F314917997ED50042D5B5 /* Build configuration list for PBXNativeTarget "SpeechKitSample" */;
+			buildPhases = (
+				8D0F312817997ED50042D5B5 /* Sources */,
+				8D0F312917997ED50042D5B5 /* Frameworks */,
+				8D0F312A17997ED50042D5B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpeechKitSample;
+			productName = SpeechKitSample;
+			productReference = 8D0F312C17997ED50042D5B5 /* SpeechKitSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8D0F312417997ED50042D5B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = YSKS;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Sergey Zimin";
+			};
+			buildConfigurationList = 8D0F312717997ED50042D5B5 /* Build configuration list for PBXProject "SpeechKitSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8D0F312317997ED50042D5B5;
+			productRefGroup = 8D0F312D17997ED50042D5B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D0F312B17997ED50042D5B5 /* SpeechKitSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D0F312A17997ED50042D5B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D0F314217997ED50042D5B5 /* Default.png in Resources */,
+				8D0F314417997ED50042D5B5 /* Default@2x.png in Resources */,
+				8D0F314617997ED50042D5B5 /* Default-568h@2x.png in Resources */,
+				8D0F3156179984390042D5B5 /* InfoPlist.strings in Resources */,
+				8D0F3157179984390042D5B5 /* YSKSViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D0F312817997ED50042D5B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D0F313C17997ED50042D5B5 /* main.m in Sources */,
+				8D0F314017997ED50042D5B5 /* YSKSAppDelegate.m in Sources */,
+				8D0F3150179983CB0042D5B5 /* YSKSViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8D0F3152179984390042D5B5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D0F3153179984390042D5B5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8D0F3154179984390042D5B5 /* YSKSViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D0F3155179984390042D5B5 /* en */,
+			);
+			name = YSKSViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8D0F314717997ED50042D5B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8D0F314817997ED50042D5B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8D0F314A17997ED50042D5B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../..\"",
+					"\"$(SRCROOT)/../../../../make/build\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpeechKitSample/SpeechKitSample-Prefix.pch";
+				INFOPLIST_FILE = "SpeechKitSample/SpeechKitSample-Info.plist";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8D0F314B17997ED50042D5B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../..\"",
+					"\"$(SRCROOT)/../../../../make/build\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpeechKitSample/SpeechKitSample-Prefix.pch";
+				INFOPLIST_FILE = "SpeechKitSample/SpeechKitSample-Info.plist";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8D0F312717997ED50042D5B5 /* Build configuration list for PBXProject "SpeechKitSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D0F314717997ED50042D5B5 /* Debug */,
+				8D0F314817997ED50042D5B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D0F314917997ED50042D5B5 /* Build configuration list for PBXNativeTarget "SpeechKitSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D0F314A17997ED50042D5B5 /* Debug */,
+				8D0F314B17997ED50042D5B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8D0F312417997ED50042D5B5 /* Project object */;
+}

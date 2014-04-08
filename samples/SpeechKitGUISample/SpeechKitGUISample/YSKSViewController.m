@@ -36,7 +36,7 @@
 }
 
 - (void)startSpeechRecognition {    
-    self.recognizerViewController = [[YSKSpeechRecognitionViewController alloc] initWithLangauge:@"ru-RU" model:@"general"];
+    self.recognizerViewController = [[YSKSpeechRecognitionViewController alloc] initWithLanguage:@"ru-RU" model:@"general"];
     self.recognizerViewController.delegate = self;
     
     [self presentViewController:self.recognizerViewController animated:YES completion:^{}];

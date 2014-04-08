@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7FB7D4E818EF110D0032988C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FB7D4E718EF110D0032988C /* AVFoundation.framework */; };
 		7FE1678617F5724200CD3248 /* YandexSpeechKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7FE1678517F5724200CD3248 /* YandexSpeechKit.bundle */; };
 		8D017ADE17F07B7E00CD1A16 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D017ADD17F07B7E00CD1A16 /* CoreLocation.framework */; };
 		8D017AE017F07B8700CD1A16 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D017ADF17F07B8700CD1A16 /* SystemConfiguration.framework */; };
@@ -31,6 +32,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7FB7D4E718EF110D0032988C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = ../../../../../../../../System/Library/Frameworks/AVFoundation.framework; sourceTree = "<group>"; };
 		7FE1678517F5724200CD3248 /* YandexSpeechKit.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = YandexSpeechKit.bundle; path = ../../../YandexSpeechKit.framework/Versions/A/Resources/YandexSpeechKit.bundle; sourceTree = "<group>"; };
 		8D017ADD17F07B7E00CD1A16 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		8D017ADF17F07B8700CD1A16 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
@@ -72,6 +74,7 @@
 				8DB567AE17C26898009F4A98 /* CoreAudio.framework in Frameworks */,
 				8D30C97F179C044100DB70BD /* QuartzCore.framework in Frameworks */,
 				8D6F21971798062000436538 /* UIKit.framework in Frameworks */,
+				7FB7D4E818EF110D0032988C /* AVFoundation.framework in Frameworks */,
 				8D6F21991798062000436538 /* Foundation.framework in Frameworks */,
 				8D6F219B1798062000436538 /* CoreGraphics.framework in Frameworks */,
 				8DB567AC17C26821009F4A98 /* YandexSpeechKit.framework in Frameworks */,
@@ -112,6 +115,7 @@
 		8D6F21951798062000436538 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7FB7D4E718EF110D0032988C /* AVFoundation.framework */,
 				8D017ADF17F07B8700CD1A16 /* SystemConfiguration.framework */,
 				8D017ADD17F07B7E00CD1A16 /* CoreLocation.framework */,
 				8DB567A917C26548009F4A98 /* AudioToolbox.framework */,
