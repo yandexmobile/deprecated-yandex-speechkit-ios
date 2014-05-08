@@ -16,6 +16,11 @@ Documentation could be found at: http://api.yandex.ru/speechkit/generated/ios/ht
 Changelog
 ----------------------------------------
 
+**Yandex SpeechKit 2.1.1** (released 2014-05-08)
+
+- fixes:
+  * some craches fixed.
+
 **Yandex SpeechKit 2.1** (released 2014-04-08)
 
 - new features:
