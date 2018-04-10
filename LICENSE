@@ -1,0 +1,86 @@
+Yandex SpeechKit Mobile Library Terms of Use
+
+This document is a translation of Yandex SpeechKit Mobile SDK Terms of Use in English. In case of conflict between the Russian version of Yandex SpeechKit Mobile SDK Terms of Use and this translation - only the Russian version of Yandex SpeechKit Mobile SDK Terms of Use is legally binding. The Russian version of Yandex SpeechKit Mobile SDK Terms of Use can be found here: https://yandex.ru/legal/speechkit/?lang=ru.
+
+YANDEX Limited Liability Company (hereinafter – Yandex) offers to an Internet user (hereinafter – the User) to use the Yandex SpeechKit Mobile Library on the terms set forth herein (hereinafter – the Terms).
+
+1. General Terms
+
+1.1. Terms and definitions
+
+“Service” – Yandex SpeechKit Mobile library, which is a programming interface designed for speech recognition and synthesis as well as recognition of pieces of music.
+
+“API-key” – a unique identifier issued to the User and enabling access to the functions of the Service in a mobile application.
+
+“Data” – information received from the Service, designed to be provided to the User, including, but not limited to, results of speech and music recognition, results of speech synthesis, and user data.
+
+1.2. The User’s use of the Service is subject to these Terms, as well as:
+
+User Agreement for Yandex Services available at: https://yandex.ru/legal/rules/,
+
+Privacy Policy available at: https://yandex.ru/legal/confidential/,
+
+1.3. By starting to use the Service or its individual functions, including by obtaining the API-key, having registered with the Service, placing the Service code in a mobile application, or using any other functionality provided by the Service, the User shall accepts these Terms, as well as the terms of all the documents specified in Clause 1.2. hereof, in full, without any limitations and exceptions, and shall adhere to them. The otherwise use of the Service except as subject to the specified documents shall only be possible with the prior written consent of Yandex. In case of disagreement of the User with any of the terms of the specified documents, the User shall not use the Service.
+
+1.4. The User shall be solely responsible for its compliance with the Legislation when using the Service. Unless otherwise specified, the term Legislation used elsewhere in these Terms shall mean any applicable legislation, including both the legislation of the Russian Federation and the legislation of the User’s place of location or the places of commission by the User of legal actions in accordance with these Terms. If the User’s use of any opportunity provided for by the Service violates the Legislation, the User shall refrain from the use of the Service.
+
+1.5. These Terms and the relationship between Yandex and the User arising from the use of the Service shall be subject to the law of the Russian Federation.
+
+2. Terms of Service Use
+
+2.1. To access the Service, the User shall receive an API-key by registering its user account with the developer interface at: https://developer.tech.yandex.ru. After the User has registered its user account with the developer interface, Yandex activates an API-key and notifies the User via the e-mail specified by the User at the registration. Yandex shall have the right to deny access to the Service for any reason. The User shall not use any programs, devices or other means producing the API-key automatically or otherwise in violation of the procedure established by Yandex.
+
+2.2. The User shall have the right to use the Service only in mobile applications unless otherwise agreed in a separate agreement between the User and Yandex.
+
+2.3. The User shall have the right to use the data and options obtained by using the Service only as a part of the functionality provided by the Service.
+
+2.4. When using the Service, the User shall place in the description of the mobile application, in the relevant “About” and “Help” sections and at the official webpage of the mobile application (or in the “Description” section in application stores) an obligatory reference to Yandex technology by placing Yandex logo and text “Powered by Yandex SpeechKit Mobile library” with hyperlink to https://tech.yandex.ru/speechkit/mobile/. Placement of Yandex logo shall comply with Yandex logo usage guidelines (http://company.yandex.ru/about/logotype/rules.xml). The reference to Yandex technology shall be available to the mobile application users on the first screen in “About” and “Help” sections as well as on the official webpage of the mobile application (or in the “Description” section of application stores) so that users will not have to take any additional steps (i.e. scroll webpages, go to a different webpage, etc.) to see the reference to the Yandex technology. When using the Service, the User shall not remove, hide or modify any information, trademarks, logos, links or other references to Yandex or other persons as well as any other notices and/or information transmitted by the Service.
+
+2.5. When using the Service, the User shall have the right to use its own graphical user interface (GUI) with the obligatory indication in such interface of the hyperlink to the Service description (https://tech.yandex.ru/speechkit/mobile/) and the Yandex logo in accordance with Yandex logo usage guidelines (http://company.yandex.com/general_info/logotype_rules.xml).
+
+2.6. Yandex shall reserve the right to impose any limits or restrictions on the use of the Service and shall modify them at its sole discretion, without prior notice to the Users.
+
+2.7. Speech recognition and synthesis, and recognition of pieces of music. The speech recognition and synthesis as well as music recognition functions shall be used only for mobile applications using the Service. The access to speech recognition and synthesis, and music recognition functions of the Service shall be obtained only through the unique API-key issued by Yandex. Total number of requests to speech recognition and synthesis as well as music recognition functions shall be limited to 10,000 requests for one API-key per day. If the maximum number of requests to speech recognition and synthesis as well as music recognition functions needs to be increased, the User may refer a relevant enquiry to the e-mail address speechkit@support.yandex.ru. The maximum number of requests to speech recognition and/or synthesis, and/or music recognition functions may be increased at the discretion of Yandex.
+
+2.8. The User shall not change, decompile, and/or in any way modify the code and resources obtained through the Service.
+
+2.9. The User shall not use the Service to create online services, computer software, and mobile applications, in order to conduct research and/or create speech recognition and/or synthesis, and music recognition technologies, and otherwise use the Service if such use entails a violation of the legislation, the documents specified in Clause 1.2 of the Terms, and/or the rights and legitimate interests of third parties.
+
+2.10. The User hereby acknowledges and agrees that Yandex shall have the right to receive anonymous (without reference to the User) statistical information about the use of the Service and technical information on the User’s device, in particular, information on the model, the manufacturer and the operating system of the device, information about the User’s location as well as depersonalized samples of voice recordings, to process which the Service is used. This information shall be processed by Yandex in accordance with the Privacy Policy rules. The User undertakes in accordance with the law to properly notify the relevant person, to whom the voice belongs, of the use of their data and to obtain the consent of this person to this use and transmission to Yandex. The User understands and agrees that Yandex shall not be responsible for the User’s failure to notify the person, to whom the voice belongs, of the use of the person’s data and the transmission of this data to Yandex.
+
+The User shall guarantee that the transmission by it to Yandex of the data of the person, to whom the voice belongs, does not violate and does not entail any violation of any rights of the person, third parties and applicable laws including Federal Law No. 152-FZ “On Personal Data” of July 27, 2006. The User shall be solely responsible for processing of the person’s data and transmission of this data to Yandex with the consent of the person, including liability to the person and any third parties, including cases where actions performed using the function enabling samples of voice recordings to be sent through the Service violate rights and legitimate interests of the person or the third parties.
+
+2.11. Yandex shall reserve the right to modify, improve or update the Service at any time without prior notice to the User. With the release of the next stable version, Yandex shall announce the release at webpages of the Service. After the release of the new version of the Service, Yandex shall not guarantee the stability and duration of its older versions. The User that does not agree to use the updated version of the Service, may either continue using the outdated version of the Service at its own risk, or stop using the Service by removing the appropriate code from User’s website(s).
+
+2.12. Yandex shall have the right, at its sole discretion, to terminate or suspend the User’s access to the Service without notice and without giving reasons, in particular, in the event of a violation by the User of these Terms.
+
+3. Intellectual Property Rights
+
+3.1. The exclusive right to the Service shall be owned by Yandex. Exclusive rights to the Data shall be owned by Yandex or other copyright holders. These Terms shall not give the User any rights to use the Service or the Data in addition to the opportunities available directly in the interface of the Service, in accordance with these Terms.
+
+3.2. By using the Service, the User shall provide Yandex with the right to use the logo, trademark and/or trade name of the User and/or User’s website for informational, promotional and marketing purposes without obtaining further consent of the User and without payment of any remuneration for such use.
+
+4. Denial of Responsibility
+
+4.1. The Service (including the Data) shall be provided by Yandex as is. Yandex shall not guarantee the compliance of the Service and the Data with User’s expectations and goals, uninterrupted and error-free operation of the Service as a whole and its individual components and/or features, and shall not guarantee the reliability, accuracy, completeness, or timeliness of the Data. Yandex shall not guarantee uninterrupted and error-free operation of third-party software products and solutions (including libraries) recommended while using the Service in specifications and other documentation related to its use.
+
+4.2. The User itself shall be fully responsible for the use and safety of its API-key. The User shall have no right to receive the API-key for third parties, transfer or assign it to a third party. Yandex shall not be responsible for any unauthorized use of the API-key by third parties. All of the actions performed on the Service using the API-key owned by the User shall be considered as performed by the User.
+
+5. Conclusive Provisions
+
+5.1. Yandex shall the right to cancel or suspend the User’s access to the Service or its individual options accessed through its account and/or the API-key without notice and at its sole discretion, without giving any reason, including, in case of violation by the User of these Terms.
+
+5.2. All the questions and claims related to the use/inability to use the Service shall be sent by e-mail: speechkit@support.yandex.ru.
+
+5.3. Yandex shall have the right to change the text of these Terms at any time, without any notice to the User. The current version of these Terms shall be available at: https://yandex.ru/legal/speechkit/. The new version of the Terms shall become effective upon its posting on the Internet at the address specified in this paragraph. The continued use of the Service after the change shall be considered the acceptance of the new version of the Terms. The User shall stop using the Service if Yandex makes any changes to these Terms, with which the User does not agree.
+
+5.4. Third party software are included in the Service as separate components. The actual information on this third party software is available at: https://yandex.ru/legal/speechkit/components/.
+
+Date: 10.04.2018
+Previous version of the document: https://yandex.ru/legal/speechkit/30102014/.
+Previous version of the document: https://yandex.ru/legal/speechkit/14102014/.
+Previous version of the document: https://yandex.ru/legal/speechkit/13052014/.
+Previous version of the document: https://yandex.ru/legal/speechkit/04022014/.
+Previous version of the document: https://yandex.ru/legal/speechkit/22112013/.
+Previous version of the document: https://yandex.ru/legal/speechkit/11112013/.
+Previous version of the document: https://yandex.ru/legal/speechkit/30092013/.
