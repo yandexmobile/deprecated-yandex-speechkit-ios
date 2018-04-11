@@ -1,5 +1,5 @@
 <p align="center" >
-  <img src="28683/yandex_speechkit_pic.png" alt="Yandex SpeechKit" title="Yandex SpeechKit Mobile SDK">
+  <img src="http://storage.mds.yandex.net/get-speechkit/28683/yandex_speechkit_pic.png" alt="Yandex SpeechKit" title="Yandex SpeechKit Mobile SDK">
 </p>
 
 [Website](https://tech.yandex.ru/speechkit/mobilesdk/) |
