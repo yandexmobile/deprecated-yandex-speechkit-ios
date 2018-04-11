@@ -1,11 +1,11 @@
 <p align="center" >
-  <img src="https://yastatic.net/doccenter/images/tech-ru/speechkit/freeze/Ts_YHKzyKst6Oe-VCHRciqug0c.png" alt="Yandex SpeechKit" title="Yandex SpeechKit Mobile SDK">
+  <img src="http://storage.mds.yandex.net/get-speechkit/43542/yandex_speechkit_pic.pdf" alt="Yandex SpeechKit" title="Yandex SpeechKit Mobile SDK">
 </p>
 
-[![Main](https://tech.yandex.ru/speechkit/mobilesdk/)
-[![EULA](https://yandex.ru/legal/speechkit)
-[![Documentation](https://tech.yandex.ru/speechkit/mobilesdk/doc/ios/stable/ref/concepts/About-docpage/)
-[![Framework](https://storage.mds.yandex.net/get-speechkit/67393/YandexSpeechKit-3.12.2_5-ios.zip)
+[Website](https://tech.yandex.ru/speechkit/mobilesdk/) |
+[Documentation](https://tech.yandex.ru/speechkit/mobilesdk/doc/ios/stable/ref/concepts/About-docpage/) |
+[Framework](https://storage.mds.yandex.net/get-speechkit/67393/YandexSpeechKit-3.12.2_5-ios.zip) |
+[EULA](https://yandex.ru/legal/speechkit)
 
 Use the SpeechKit library to integrate speech recognition, text-to-speech, music identification, and Yandex voice activation into your iOS mobile app. Voice control makes your app more user-friendly, especially for people who use it on the go or whose hands are busy. Without touching the screen, users can activate the desired feature with a single phrase.
 
@@ -21,7 +21,7 @@ If the number of voice commands accessing your application does not exceed 10,00
 
 ## Where to start
 
-- [Find out what SpeechKit is](https://tech.yandex.com/speechkit/mobilesdk/), what functionality is available in the library, and how it can improve your application.
+- Find out what [SpeechKit](https://tech.yandex.com/speechkit/mobilesdk/) is, what functionality is available in the library, and how it can improve your application.
 - Download [SpeechKit samples](https://github.com/yandexmobile/yandex-speechkit-samples-ios) and try to run them. This is a good way to quickly learn how to use the main components of the library.
 - Read the [Quick Start](https://tech.yandex.ru/speechkit/mobilesdk/doc/ios/stable/quick-start/concepts/about-docpage/), which describes the configuration required for the library to work, along with recommended steps for fast and successful integration of SpeechKit in your application.
 - Review the [Documentation](https://tech.yandex.ru/speechkit/mobilesdk/doc/ios/stable/ref/concepts/About-docpage/) for the library's API: the main classes and their functions, features, and restrictions.
@@ -181,7 +181,7 @@ For the library to work, the following system frameworks and libraries are also 
 
 ## Usage
 
-### `YSKSpeechKit`
+### YSKSpeechKit
 
 Singleton class for configuring and controlling the library. You don't need to explicitly create or destroy instances of the `YSKSpeechKit` class. To access an object, use the `-sharedInstance` method, which creates an instance of the` YSKSpeechKit` class when accessed the first time. This instance is destroyed when the application closes.
 
@@ -190,7 +190,7 @@ Before using any of the SpeechKit functionality, you must configure `YSKSpeechKi
 YSKSpeechKit.sharedInstance().apiKey = "developer_api_key"
 ```
 
-### `YSKAudioSessionHandler`
+### YSKAudioSessionHandler
 
 Use this class to configure the application's audio session for recording and playing audio. The audio session is a singleton object that configures the audio context of the application so that it can interact with other applications that use audio. The application always uses a single instance of the audio session, so the audio session is configured and activated outside the realm of the `SpeechKit` library components. The `YSKAudioSessionHandler` class makes it easier to configure the audio session. If your application uses an audio session only when working with the `SpeechKit` library, we recommend using this class to configure the audio session. If your application uses the audio session outside of the library (for audio and video playback, recording audio, and so on), you can also use this class, or configure the audio session independently.
 ```swift
@@ -202,7 +202,7 @@ catch {
 }
 ```
 
-### `YSKOnlineRecognizer`
+### YSKOnlineRecognizer
 
 ```swift
 let settings = YSKOnlineRecognizerSettings(language: YSKLanguage.english(), model: YSKOnlineModel.queries()) // 1
@@ -222,7 +222,7 @@ func recognizer(_ recognizer: YSKRecognizing, didReceivePartialResults results: 
 }
 ```
 
-### `YSKOnlineVocalizer`
+### YSKOnlineVocalizer
 
 ```swift
 let settings = YSKOnlineVocalizerSettings(language: YSKLanguage.english())
